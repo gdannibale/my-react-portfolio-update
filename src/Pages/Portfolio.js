@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from 'reactstrap';
 import { Card, CardText, CardBody, CardLink, CardTitle, CardSubtitle } from 'reactstrap';
-import { SocialIcon } from "react-social-icons"
-import { projects } from "../utils/projects.js"
-import Project from "../components/Projects.js"
+import { SocialIcon } from "react-social-icons";
+import { Projects } from "../Utils/Projects.js";
+import { Project } from "../Components/Project.js"
 
 
 
@@ -18,7 +18,7 @@ export default function Portfolio(props) {
             <div className="projects-center" id="portfolio">
 
                 {
-                    projects.map((projects) => {
+                    Projects.map((projects) => {
                         return <Project key={projects.id} {...projects} />
                     })
                 }

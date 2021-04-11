@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Card, CardText, CardBody, CardLink, CardTitle, CardHeader, CardFooter, Button } from 'reactstrap';
 import { IconContext } from "react-icons"
 import { FaLinkedin, FaGithub, FaFileAlt } from "react-icons/fa";
-import Resume from "../utils//images/chadtarpey.pdf"
+// import Resume from "../Utils//images/chadtarpey.pdf"
 
 
 
@@ -49,7 +49,7 @@ export default function Contact() {
         <Col className="col-md-3 col-12">
 
           <Card className="contacts">
-            <CardHeader>My Resume</CardHeader>
+            {/* <CardHeader>My Resume</CardHeader>
             <CardBody>
               <IconContext.Provider value={{ color: "tan", size: "10em" }}>
                 <FaFileAlt />
@@ -58,7 +58,7 @@ export default function Contact() {
               <CardText>A link to my Resume.</CardText>
               <Button href={Resume} target="_blank">My Resume</Button>
 
-            </CardBody>
+            </CardBody> */}
           </Card>
         </Col>
       </Row>

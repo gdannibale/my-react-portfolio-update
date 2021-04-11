@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Portfolio from "./pages/Portfolio"
-import Contact from "../src/pages/Contact";
-import Navbar from "./components/Navbar/Navbar"
+import Home from "./Pages/Home"
+import About from "./Pages/About"
+import Portfolio from "./Pages/Portfolio"
+import Contact from "../src/Pages/Contact";
+import Navbar from "./Components/Navbar/Navbar"
 // import Wrapper from "../src/components/Wrapper/Wrapper"
 
 import './App.css';

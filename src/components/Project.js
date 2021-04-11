@@ -3,7 +3,7 @@ import { SocialIcon } from "react-social-icons"
 import { Container, Row, Col } from 'reactstrap';
 
 
-const Projects = ({ title, image, text, url, repo }) => {
+const Project = ({ title, image, text, url, repo }) => {
     return (
         <article className="projects">
             <div className="img-container">
@@ -33,4 +33,4 @@ const Projects = ({ title, image, text, url, repo }) => {
     )
 }
 
-export default Projects;
+export default Project;

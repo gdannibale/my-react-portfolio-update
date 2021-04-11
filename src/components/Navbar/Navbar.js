@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Form, Button, NavDropdown, FormControl } from '
 import { Link, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import { SocialIcon } from "react-social-icons"
-import Resume from "../../utils/images/chadtarpey.pdf"
+// import Resume from "../../utils/images/chadtarpey.pdf"
 
 
 export default function NavBar() {
@@ -73,12 +73,12 @@ export default function NavBar() {
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }} />
-          <SocialIcon
+          {/* <SocialIcon
             url={Resume}
             className="mr-4"
             target="_blank"
             fgColor="#fff"
-            style={{ height: 35, width: 35 }} />
+            style={{ height: 35, width: 35 }} /> */}
         </div>
       </Navbar.Collapse>
 

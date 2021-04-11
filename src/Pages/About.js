@@ -5,7 +5,7 @@ import { DiJsBadge, DiReact, DiMongodb, DiMysql, DiNodejs, DiCss3, DiJqueryLogo,
 
 
 
-import image from "../utils//images/IMG_6139.jpeg"
+// import image from "../utils//images/IMG_6139.jpeg"
 
 export default function About() {
     return (
@@ -20,9 +20,9 @@ export default function About() {
                     Looking for a company to work for so i can grow and learn everyday as full stack developer.
                </p>
                 </Col>
-                <Col className="col-md-5 col-12">
+                {/* <Col className="col-md-5 col-12">
                     <img className="family-pic" src={image} alt="picture of my family" />
-                </Col>
+                </Col> */}
 
                 <Col className="col-lg-3 col-12">
 
